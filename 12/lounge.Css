@@ -1,0 +1,38 @@
+h1, h2 {
+  font-family: Arial;
+  color: grey;
+}
+
+
+h1 {
+  border-bottom:1px solid black;
+}
+
+p {
+  color: maroon;
+}
+html {
+  font-size: 10px; /* 设置根元素字体大小 */ 
+}
+
+h1 {
+  font-size: 1.5rem; /* 相对于根元素字体大小的 2 倍 */
+}
+h2 { 
+  font-size: 2rem;
+}
+p {
+  font-size: 3rem;
+}
+body { 
+  font-family:Arial ;
+}
+body{
+	color: royalblue;
+	color: rgb(65, 105, 225);
+	color: #4169E1CC;
+  color:#EEA2A0;
+  color: rgb(238,162,160);
+	color: rgba(39,177,182,0.8);
+	color: #2775b6CC;
+}

@@ -1,0 +1,50 @@
+.flex-container {
+justify-content: center;
+}
+.about-bentley-btn {
+    position: relative;
+    background-color: #3c503c;
+    color: #f4f7f4; 
+    border:none;
+    padding: 10px 15px;
+    font-size:16px;
+    left: 100px;
+    top: 450px;
+    z-index: 1;
+}
+.about-bentley-btn:hover {
+    background-color: #73866e;
+}
+.image-box {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    background-image: url("E:\48zhouhuiyan\仿站\Mulliner Article Teaser 4 (2).jpg");
+    background-size: cover;
+    background-position: center;
+}
+.text-overlay {
+    position: absolute;
+    bottom:20px;
+    left:20px;
+    color: rgb(252, 252, 252);
+    padding:10px;
+    font-size: 15px;
+}
+.blur-container {
+    position: relative;
+    width: 500px;
+    height: 400px;
+}
+.blur-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    top: 200px;
+    left: 50px;
+    -webkit-backdrop-filter: blur(2px);
+    background-color: rgba(255, 255, 255, 0.2); /* 半透明的白色背景 */
+    backdrop-filter: blur(2px); /* 模糊效果 */
+}

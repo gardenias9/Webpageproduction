@@ -1,0 +1,796 @@
+
+/*陈晓妍的css作业 */
+.box{
+    position: absolute;
+    top: 6%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .body{
+    font-family:Bentley, arial, helvetica, sans-serif;
+    margin:0;
+    padding:0; 
+    position: relative;
+    min-height: 300vh; 
+  }
+  
+  .blur-container{
+   position: relative;
+    bottom: 50px;
+    left: 0;
+    right:0;
+    width: 1900px;
+    height: 1000px;
+    z-index: -1;
+  }
+  .binli {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+    bottom: 500px;
+    width:97.5%;
+    height:830px;
+    padding: 0;
+  }
+  .blur-box {
+    position: absolute;
+    display: block;
+      width: 100%;
+      height: 100%;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px); 
+    background-color: rgba(0, 0, 0, 0.3); 
+    top: 0;
+    left: 0;
+    }
+  ul{
+    top: 50px;
+  }
+  ul li {
+      display: inline;
+      padding: 5px 15px 5px 15px;
+    z-index: 10;
+    font-size: 14px;
+  }
+  a {
+    text-decoration: none;
+    color:white ;
+  }
+  ul a:hover {
+    color: #394d45;
+  }
+  .box1{
+    position: fixed;
+    z-index: 10;
+    background: rgba(4, 4, 4, .6);
+    bottom: 0;
+    padding: 2px 16px;
+    text-align: center;
+    color: white;
+    width:100%;
+    margin:0;
+    margin-left: -10px;
+    font-size: 15px;
+  }
+  .box2{
+    font-size: 45px;
+    font-weight: 300;
+    line-height: 42px;
+    z-index: 2;
+    position: relative;
+    bottom: 1000px;
+    left:70px;
+    color: white;
+    max-width: 25%;
+    line-height: 1.3; 
+  }
+  .box3{
+    position: relative;
+    font-size:13px; 
+    bottom: 1100px;
+    left:600px;
+    max-width: 27%;
+    color: white;
+    line-height: 1.7; 
+  }
+  .about-bentley-btn{
+    position: absolute;
+    background-color:#3c503c;
+    color: #f2f8f1;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    left: 1400px;
+    top:760px;
+  }
+  .about-bentley-btn{
+    position: absolute;
+    background-color:#3c503c;
+    color: #f2f8f1;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    left: 1480px;
+    top:840px;
+  }
+  .about-bentley-bth:hover{
+    background-color: rgba(255,255,255,0.2);
+  }
+  .flex-container{
+    justify-content:center;
+  }
+  
+  .touming{
+    position: absolute;
+    color: #f2f8f1;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    left: 1130px;
+    top:48px;
+    border: 1.5px solid #ffffff; 
+  }
+  .touming:hover{
+    background-color: rgba(255,255,255,0.2);
+  }
+  .anniu{
+    justify-content:center;
+  }
+  .touming2{
+    position: absolute;
+    color: #f2f8f1;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    left: 1485px;
+    top:48px;
+  }
+  .touming2:hover{
+    background-color: rgba(255,255,255,0.2);
+  }
+  .anniu2{
+    justify-content:center;
+  }
+  .touming3{
+    position: absolute;
+    color: #f2f8f1;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    left: 1335px;
+    top:48px;
+  }
+  .touming3:hover{
+    background-color: rgba(255,255,255,0.2);
+  }
+  .anniu3{
+    justify-content:center;
+  }
+  .touming4{
+    position: absolute;
+    color: #f2f8f1;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    left: 1407px;
+    top:900px;
+    border: 1.5px solid #ffffff; 
+  }
+  .touming4:hover{
+    background-color: rgba(255,255,255,0.2);
+  }
+  .anniu4{
+    justify-content:center;
+  }
+  .jiantou{
+    position: absolute;
+    color: #f2f8f1;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    left: 1520px;
+    top:190px;
+  }
+  .jiantou:hover{
+    background-color: rgba(255,255,255,0.2);
+  }
+  .anniujiantou{
+    justify-content:center;
+  }
+  .jiantou2{
+    position: absolute;
+    color: #f2f8f1;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    left: 1600px;
+    top:190px;
+  }
+  .jiantou2:hover{
+    background-color: rgba(255,255,255,0.2);
+  }
+  .anniujiantou2{
+    justify-content:center;
+  }
+  .jiantou2{
+    position: absolute;
+    color: #f2f8f1;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    left: 1460px;
+    top:191px;
+  }
+  .jiantou2:hover{
+    background-color: rgba(255,255,255,0.2);
+  }
+  .anniujiantou2{
+    justify-content:center;
+  }
+  .simple-line {
+    border: none;    
+    height: 2px;      
+    background: #ffffff; 
+    margin: 20px 0;  
+    width: 3%; 
+    position: absolute;
+    top: 200px;
+    left: 5%;
+  }
+  .simple-line1 {
+    border: none;      
+    height: 2px;       
+    background: rgba(255, 255, 255, 0.5);   
+    margin: 20px 0;  
+    width: 16%; 
+    position: absolute;
+    top: 200px;
+    left: 5%;
+  }
+/*池梦溪的css作业*/
+p{
+    margin: 0;
+    white-space: nowrap;
+}
+
+.title{
+    font-weight: bold;
+    text-align: center;
+}
+
+.center-container{
+    text-align: center;
+    margin-top: 300px;
+    margin-bottom: 100px;
+}
+
+
+.line{
+    display: block;
+    margin-top: 20px;
+    padding: 1px;
+}
+
+.bm-e-button-group{
+    text-align: center;
+}
+
+
+.ihg .ing.icg.ibg{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+
+.image-container{
+    position: relative;
+    display:inline-block;
+}
+
+.flex-container{
+    justify-content: center;
+}
+
+.about-bentley-bth{
+    position: absolute;
+    background-color:#3c503c;
+    color: #f2f8f1;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    left: 500px;
+    top:400px;
+}
+
+.about-bentley-bth:hover{
+    background-color: #637a77;
+}
+
+.about{
+    position: absolute;
+    background-color:#ffffff;
+    color: #4f7548;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    left: 700px;
+    top:400px;
+    border: 1.5px solid   #4f7548;
+}
+
+.about:hover{
+    background-color: #eaf0ef;
+}
+
+.image-container{
+    position: relative;
+    display: inline-block;
+}
+
+    .overlay-text {
+        position: absolute;
+        left:13px;
+        bottom: 20px;
+        color: rgb(255, 255, 255); /* 文字颜色 */
+        font-size: 15px; /* 文字大小 */
+        font-weight: lighter; /* 文字加粗 */
+        padding: 8px 12px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .first-line{
+        margin-bottom: 20px;
+    }
+
+    .we{
+        position: relative;
+        display: inline-block;
+    }
+
+    .or{
+        position: absolute;
+        left:10px;
+        bottom: 20px;
+        color: white; /* 文字颜色 */
+        font-size: 15px; /* 文字大小 */
+        font-weight: lighter; /* 文字加粗 */
+        padding: 8px 12px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .one{
+        margin-bottom: 20px;
+    }
+
+    .our{
+        position: relative;
+        display: inline-block;
+    }
+
+    .us{
+        position: absolute;
+        left:10px;
+        bottom: 20px;
+        color: white; /* 文字颜色 */
+        font-size: 15px; /* 文字大小 */
+        font-weight: lighter; /* 文字加粗 */
+        padding: 8px 12px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .you{
+        margin-bottom: 20px;
+    }
+
+    .sweet{
+        position: relative;
+        display: inline-block;
+    }
+
+    .teer{
+        position: absolute;
+        left:10px;
+        bottom: 20px;
+        color: white; /* 文字颜色 */
+        font-size: 15px; /* 文字大小 */
+        font-weight: lighter; /* 文字加粗 */
+        padding: 8px 12px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .is{
+        margin-bottom: 20px;
+    }
+
+    .ball{
+        position: absolute;
+        background-color:#ffffff;
+        color: #000000;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        left: 1300px;
+        top:3150px;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+
+    .boll{
+        position: absolute;
+        background-color:#ffffff;
+        color: #000000;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        left: 1350px;
+        top:3150px;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+/*阚笑薇的css作业部分 */
+.image-container {
+    position: relative; /* 相对定位，作为文字绝对定位的参考 */
+    display: inline-block; /* 让容器适应图片大小 */
+}
+.move-right-100 {/* 新增类，用于向右移动 100 像素 */
+    margin-left: 24px;
+}
+.bm-h3 {
+    position:relative;
+    bottom: 600px;
+    left: 200px;
+    font-size: 13px; 
+    color: #fdfafa; 
+    font-weight: 300;
+}
+.bm-h35 {
+    position:relative;
+    bottom: 630px;
+    left: 200px;
+    color: #fdfafa; 
+    font-size: 30px;
+    font-weight: 300;
+}
+.image-text {/* 定义图片上文字的样式 */
+    position: absolute; /* 绝对定位，相对于图片容器定位 */
+    top: 50%; /* 垂直居中 */
+    transform: translateY(-50%); /* 仅垂直居中 */
+    color: white; /* 文字颜色 */
+    font-size: 16px; /* 缩小文字大小 */
+    font-weight: bold; /* 文字加细 */
+    text-shadow: 2px 2px 4px rgba(167, 163, 163, 0.5); /* 文字阴影 */
+    left:200px; /* 向左移动 10 像素 */;
+    font-weight: 300;
+}
+.image-text2 {/* 定义图片上文字的样式 */
+    position: absolute; /* 绝对定位，相对于图片容器定位 */
+    top: 50%; /* 垂直居中 */
+    transform: translateY(-50%); /* 仅垂直居中 */
+    color: white; /* 文字颜色 */
+    font-size: 16px; /* 缩小文字大小 */
+    font-weight: bold; /* 文字加细 */
+    text-shadow: 2px 2px 4px rgba(167, 163, 163, 0.5); /* 文字阴影 */
+    left:600px; /* 向左移动 10 像素 */;
+    top: 550px; /* 向上移动 10 像素 */;
+    font-weight: 300;
+}
+.small-image {/* 新增样式，限制图片大小 */
+    position: relative;
+    max-width: 1800px; /* 图片最大宽度为容器宽度 */
+    max-height: 800px; /* 图片最大高度为容器高度 */
+    left: -20px; 
+    top: 170px;
+}
+.small-image2 {/* 新增样式，限制图片大小 */
+    max-width: 1800px; /* 图片最大宽度为容器宽度 */
+    max-height: 800px; /* 图片最大高度为容器高度 */
+}
+.small-image3 {/* 新增样式，限制图片大小 */
+    max-width: 1800px; /* 图片最大宽度为容器宽度 */
+    max-height: 1500px; /* 图片最大高度为容器高度 */
+}
+
+
+
+.center-in-container {/* 新增样式类，让元素在容器中水平和垂直居中 */
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.center-top-in-container {/* 新增样式类，让元素在容器中水平居中，垂直位于上方 */
+    left: 50%;
+    top: 0; /* 让元素位于容器顶部 */
+    transform: translateX(-50%); /* 仅水平居中 */
+}
+
+
+.ownership-section {/* 设置 ownership-section 为相对定位容器 */
+    position: relative;
+    display: inline-block; /* 让容器适应图片大小 */
+}
+
+
+.ownership-image img {/* 设置图片宽度为 100% */
+    max-width: 100%;
+    height: auto;
+}
+
+.ownership-content {/* 让内容绝对定位在图片上，修改 left 值以向右移动 */
+    position: absolute;
+    color: white;
+    left:1400px; /* 向左移动 10 像素 */;
+    top:2200px; /* 向上移动 10 像素 */;
+}
+/*马思秋的作业css部分 */
+  
+  .container4 {
+    display: flex;
+    padding: 220px;
+  }
+  .image-container4 {
+    position: relative;
+    display: inline-block;
+    left:110px;
+    bottom: -15px;
+    margin-left: 100px;
+    margin-top: 50px;
+  }
+  .base-image {
+    position: absolute;
+    top: 70px;
+    right:110px;
+    z-index: 1;
+    
+  }
+  .overlay-image {
+    display: block;
+    margin-bottom: 100px;
+    margin-right: 60px;
+
+  }
+  p {
+    font-family: sans-serif;
+  }
+  
+  button {
+    padding: 10px 10px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  .bm-h4 {
+    position: relative;
+    bottom:650px;
+    left: 900px;
+    font-family: 'Franklin Gothic Medium' sans-serif;
+    transform: scaleY(0.9);
+    font-size: 40px;
+    font-weight: 200;
+    z-index: 1;
+  }
+  .bm-body--small {
+    position: relative;
+    color: #000000;
+    font-size: 14px;
+    bottom: 670px;
+    left: 900px;
+    z-index: 1;
+  }
+  .about-bentley-btn {
+    position: relative;
+    background-color: #2a4d3d;
+    color: #f4f7f4; 
+    border:none;
+    padding: 14px 30px;
+    font-size:14px;
+    font-weight: 400;
+    top: -620px;
+    left: 900px;
+    z-index: 1;
+}
+.about-bentley-btn:hover {
+    background-color: #73866e;
+    transform: scaleY(0.75);
+}
+.about-bentley-btn2 {
+    position: relative;
+    background-color: hsl(45, 29%, 97%);
+    border : 1px solid #2a4d3d;
+    color:#2a4d3d; 
+    padding: 13px 40px;
+    font-size:14px;
+    font-weight: 400;
+    bottom: 645px;
+    left: 1050px;
+    z-index: 1;
+}
+.about-bentley-btn2:hover {
+    background-color: #c6c9c7;
+    transform: scaleY(0.75);
+}
+a {
+  color: #2a2c2b;
+  text-decoration: none;
+  margin: 50px;
+  font-size: 14px;
+}
+a:hover {
+  color: #3a5232;
+}
+footer {
+  position: relative;
+  margin-left: 460px;
+  margin-top: -255px;
+}
+img {
+  margin-bottom: -5px;
+  
+}
+
+/* 陈艳青和周惠妍的作业css部分 */
+body {
+    background-color:hsl(45, 29%, 97%);
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    overflow-x: hidden; /* 隐藏横向滚动条 */
+    max-width: 100%;    /* 确保不超出视窗 */
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    white-space: nowrap;
+    font-size: 11.5px;
+    font-weight: 490;
+    color: #1e2c26;
+    background-color: hsl(45, 29%, 97%);
+}
+.container {
+    transform: translateX(70px);
+    margin-left: 170px;
+    
+}
+.header-lift{
+    letter-spacing: 40px;
+    margin-right: 280px ;
+    margin-left: 280px;
+    transform: scaleX(0.89);
+    height: 16px;
+    padding: 20px ;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a:hover {
+    color: #637a77;
+}
+ul {
+    list-style-type: none;
+}
+a{
+    transform: scaleY(0.89);
+}
+.your-modlue {
+    display: flex;  
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 100px;
+    margin-top: 100px;
+    left: -180px;
+    transform: translateX(-180px);
+}
+.flex-link {
+    margin-left: 20px;
+}
+span {
+    font-family: "sans-serif";
+    font-weight: 345;
+    font-size: 18px;
+    position: relative;
+    left: -130px !important;
+    margin: 110px;
+
+}
+.movable-span {
+    position: relative;
+    top: 60px;
+    right:70px ;
+    bottom: 30px; 
+    transform: scaleY(0.87);
+}
+.parent-container {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+blockquote {
+    position: relative;
+    padding-left: 20px;
+}
+.link-with-images {
+    display: inline-block;
+    margin-right: 15px;
+}
+.quote-icon {
+    position: relative;
+    padding-left: 20px; 
+    margin-left: 80px;
+    margin-bottom: 40px;
+    right:120px ;
+    font-size: 20px;
+    padding: 8px 0;
+    font-size: 30px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 100%;
+    text-transform: uppercase;
+    align-items: center;
+}
+.span.your-class  {
+    all:unset;
+    display: inline-block;
+    position: relative;
+    font-size: 20px !important;
+    font-weight: 300 !important;
+    margin-right: 60px !important;
+    margin-left: 60px !important;
+}
+.images-link {
+    display: inline-table;
+    background-image:url("file:///C:/Users/Administrator/Desktop/8234622754AD6AD51716E28FE70DC14A.jpg");
+    background-position: 20% 0%; /* 调整背景图片的位置 */
+}
+.footerList {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(40px, auto);
+}
+:where(p) {
+    margin-block: 0;
+}
+.flex-container1 {
+    overflow: auto;
+    margin-left: 590px;
+    padding: 5px; 
+}
+.centered-text {
+    white-space: nowrap;
+    padding: 15px 15px;
+    margin-left: 700px;
+    margin-top: 10px;
+}
+.movable-link {
+    position: relative; 
+    left: 650px;  
+    padding: 0;
+    margin-top: -75px;
+    margin-right: 30px;
+    margin-bottom: 10px; 
+    font-weight: 700;
+}
+.inline-text {
+    color:inherit;
+    text-decoration: none;
+    font-size: 10px;
+    margin:50px; 
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 40px;
+}
